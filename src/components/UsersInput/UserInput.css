@@ -1,0 +1,16 @@
+.form-control {
+    margin: .75rem 0;
+}
+.form-label {
+    font-weight: bolder;
+}
+input {
+    width: 100%;
+    margin-top: .5rem;
+}
+
+.user-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
