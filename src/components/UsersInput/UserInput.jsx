@@ -24,7 +24,7 @@ const UserInput = (props) => {
   const formSubmitHandler = (event) => {
     event.preventDefault();
 
-    if(!userName){
+    if(!userName || !userAge){
       openModal();
       return;
     }
@@ -50,7 +50,6 @@ const UserInput = (props) => {
             Add User
           </Button>
         </form>
-        { console.log(showModal)}
         <Modal
           title="Missing fields"
           message="Both fields must be filled out"

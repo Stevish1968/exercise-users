@@ -9,6 +9,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: solid 1px red;
 }
 
 .modal-header {
@@ -30,6 +31,10 @@
 }
 
 .modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
     padding: 1rem;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
@@ -37,5 +42,5 @@
 
 .modal-button {
     float: right;
-    margin: 4rem 1rem 0 0;
+    margin: 1rem 1rem 0 0;
 }

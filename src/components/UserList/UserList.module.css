@@ -3,3 +3,7 @@ li {
     border: solid 1px black;
     margin: 1rem;
 }
+
+li:hover {
+    background: #eee;
+}
